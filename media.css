@@ -1,0 +1,1588 @@
+/* Для экранов с шириной до 1299px */
+
+@media (max-width: 1299px) {
+    .container {
+        width: 900px;
+    }
+
+    /****************** header *******************/
+    .header-top {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .nav__item {
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+
+    .language {
+        padding-left: 10px;
+    }
+
+    .category {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 35px;
+        height: 35px;
+        width: 280px;
+    }
+
+
+    .home {
+        font-size: 12px;
+    }
+
+    .header-info--row {
+        padding-bottom: 11px;
+    }
+
+    .header-info--row--item {
+        font-size: 12px;
+        padding-right: 15px;
+    }
+
+    .header-info--row--item img {
+        padding-right: 8px;
+    }
+
+    .quote-number,
+    .cart-number {
+        font-size: 10px;
+    }
+
+    .login {
+        padding-left: 15px;
+    }
+
+    /************* /header-info *******************/
+    /*************** header-intro *****************/
+    .header-title {
+        font-size: 50px;
+    }
+
+    /*************** /header-intro *****************/
+
+    /******************* section-qualities ******************/
+
+    .quality-title {
+        font-size: 16px;
+    }
+
+    .quality-text {
+        font-size: 14px;
+    }
+
+    /******************* /section-qualities ******************/
+    .section-title {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .title-rectangle {
+        width: 40px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    /******* product-column ********/
+
+    .product-item--main-page {
+        padding: 10px 15px;
+    }
+
+    .product-img--main-page {
+        width: 140px;
+        margin-bottom: 10px;
+    }
+
+    .product-title--main-page {
+        font-size: 13px;
+    }
+
+    .section-products--main-page {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    /******* /product-column ********/
+
+    /**************** section-intro *******************************/
+    .section-intro {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+
+    .section-intro-title {
+        font-size: 20px;
+    }
+
+    .section-intro-text {
+        padding-bottom: 18px;
+        font-size: 12px;
+    }
+
+    .section-intro-row .read-more-btn {
+        margin-top: 15px;
+    }
+
+    .read-more-btn {
+        font-size: 12px;
+        width: 170px;
+    }
+
+
+    /**************** /section-intro *******************************/
+
+    /************* section-news *************************************/
+    .section-news {
+        margin-bottom: 60px;
+    }
+
+    .news-item {
+        width: 175px;
+        height: 248px;
+    }
+
+    .news-group {
+        font-size: 12px;
+    }
+
+    /************* /section-news *************************************/
+
+    /************* section-partners *************************************/
+
+    .section-partners-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    /************* /section-partners *************************************/
+
+
+    /************* section-subscribe *************************************/
+
+
+    .subscribe-title {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .subscribe-text {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+
+    .input-email {
+        width: 400px;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .subscribe_btn {
+        font-size: 10px;
+        padding: 10px 16px;
+    }
+
+    /************* /section-subscribe *************************************/
+
+    /************* section-footer *************************************/
+    .section-footer {
+        padding-top: 56px;
+        padding-bottom: 77px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+    }
+
+    .footer-office {
+        margin-bottom: 17px;
+    }
+
+    .office-name {
+        font-size: 12px;
+    }
+
+
+    .office-address,
+    .office-phone {
+        font-size: 10px;
+    }
+
+
+    .footer-logo {
+        margin-top: 30px;
+    }
+
+    .footer-logo img {
+        width: 50%;
+    }
+
+    .footer-product-column {
+        margin-right: 30px;
+        margin-bottom: 12px;
+    }
+
+    .footer-product-row-title {
+        font-size: 12px;
+        line-height: 1.15;
+    }
+
+
+
+    .footer-item {
+        font-size: 10px;
+        line-height: 1.15;
+
+    }
+
+
+    .footer-social {
+        margin-top: 120px;
+    }
+
+    .social-link {
+        margin-right: 4px;
+    }
+
+
+    .social-img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /************* /section-footer *************************************/
+
+    /************* footer **********************************/
+    .copyright {
+        font-size: 12px;
+    }
+
+    .footer-name {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+
+    /*********** about=page ***************/
+    .menu-text {
+        font-size: 12px;
+    }
+
+    /*********** /about=page ***************/
+
+    /********************** contact.html/ section-contact ***************************/
+
+    .section-contact {
+        height: 1095px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact-map {
+        margin-bottom: 30px;
+    }
+
+    .contact-details-group {
+        margin-bottom: 10px;
+    }
+
+    .contact-details-group>.section-title {
+        font-size: 20px;
+    }
+
+    .contact-details-group>.title-rectangle {
+        width: 30px;
+        height: 25px;
+    }
+
+    .contact-map {
+        margin-right: 50px;
+    }
+
+
+
+    .contact-details-item {
+        font-size: 14px;
+        line-height: 1.14;
+        margin-bottom: 10px;
+    }
+
+
+
+    .contact-details-icon {
+        left: -30px;
+        top: 3px;
+    }
+
+    .tab-item {
+        font-size: 14px;
+    }
+
+    .form {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+
+    /********************** /contact.html/ section-contact ***************************/
+
+    /************** product page *******************************************/
+
+    .product-page>.column-18 {
+        width: 25%;
+    }
+
+    .product-page>.column-80 {
+        width: 70%;
+    }
+
+    .subheader-background {
+        height: 120px;
+    }
+
+
+    .section-products {
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .section-products-title {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+
+    /***** product-item ******/
+    .products-row {
+        flex-wrap: wrap;
+    }
+
+    .slider-product-row {
+        flex-wrap: nowrap;
+    }
+
+    .products-item {
+        margin-bottom: 10px;
+    }
+
+    .product-logo {
+        width: 45%;
+    }
+
+
+
+
+    .product-img {}
+
+    .product-title {
+        font-size: 14px;
+        line-height: 1.15;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    .product-price {
+        font-weight: 500;
+        font-size: 16px;
+
+
+    }
+
+    /***** product-ads-row *********/
+
+    .product-ads-row {
+        flex-direction: column;
+    }
+
+    .product-ads-item {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /************** /product page *******************************************/
+
+    /********************* item-page *************************************/
+
+    .item-page>.column-18 {
+        width: 25%;
+    }
+
+    .item-page>.column-80 {
+        width: 70%;
+    }
+
+    .item-row {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .item-row-decs {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    /********************* item-page *************************************/
+
+    /***************** documents-page ****************************************/
+    .documents-item {
+        padding: 31px 5px;
+    }
+
+    /***************** /documents-page ****************************************/
+
+    /*********************** news-page ********************************/
+
+    .item {
+        width: 284px;
+        height: 430px;
+    }
+
+    /*********************** /news-page ********************************/
+
+
+}
+
+/* Для экранов с шириной до 899px */
+@media (max-width: 899px) {
+    .container {
+        max-width: 600px;
+    }
+
+    /*************** header-top ******************/
+
+    .logo img {
+        width: 90%;
+    }
+
+    .nav__item {
+        font-size: 10px;
+        font-weight: 500;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+
+
+    .language {
+
+        padding-left: 10px;
+    }
+
+    .lang-icon {
+        width: 12px;
+    }
+
+    .language span {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    /*************** /header-top ******************/
+
+
+    /************* header-info *******************/
+
+    .header-info {
+        height: 40px;
+    }
+
+
+
+    .category {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 30px;
+        height: 30px;
+        width: 200px;
+    }
+
+    .category-icon {}
+
+    .home {
+        font-size: 10px;
+    }
+
+    .home-link-icon {
+        width: 15px;
+    }
+
+
+    .header-info--row {}
+
+    .header-info--row--item {
+        font-size: 10px;
+        padding-right: 8px;
+    }
+
+
+    .header-info--row--item img {
+        width: 30px;
+    }
+
+
+    .quote-number,
+    .cart-number {
+        top: -2px;
+        left: 23px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+
+    /************* /header-info *******************/
+    /*************** header-intro *****************/
+    .header-title {
+        font-size: 30px;
+    }
+
+    /*************** /header-intro *****************/
+
+    /******************* section-qualities ******************/
+
+    .section-qualities {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .quality {
+        padding: 0px 0px 0px 20px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        gap: 5px;
+        width: 250px;
+        height: 75px;
+    }
+
+
+    .quality-title {
+        font-size: 14px;
+    }
+
+    .quality-text {
+        font-size: 12px;
+    }
+
+    .quality-img {
+        width: 30px;
+        padding-right: 10px;
+    }
+
+    /******************* /section-qualities ******************/
+
+    /******* product-column ********/
+    .section-title {
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .title-rectangle {
+        width: 25px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .product-img--main-page {
+        width: 85px;
+        margin-bottom: 10px;
+    }
+
+    .product-title--main-page {
+        font-size: 9px;
+    }
+
+
+    /******* /product-column ********/
+    /**************** section-intro *******************************/
+
+    .section-intro-title {
+        font-size: 15px;
+    }
+
+    .section-intro-text {
+        padding-bottom: 10px;
+        font-size: 9px;
+    }
+
+
+    .section-intro-row .read-more-btn {
+        margin-top: 10px;
+    }
+
+    .read-more-btn {
+        font-size: 9px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 150px;
+    }
+
+    /************* section-news *************************************/
+
+    .news-item {
+        width: 150px;
+        height: 219px;
+    }
+
+    .news-group {
+        font-size: 10px;
+    }
+
+    /************* /section-news *************************************/
+    /************* section-partners *************************************/
+
+    .partners-item img {
+        width: 67%;
+    }
+
+    /************* /section-partners *************************************/
+
+    /************* section-subscribe *************************************/
+
+
+    .subscribe-title {
+        font-size: 20px;
+    }
+
+    .subscribe-text {
+        font-size: 14px;
+    }
+
+
+    .input-email {
+        width: 300px;
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+
+    .subscribe_btn {
+        font-size: 8px;
+        padding: 5px 14px;
+    }
+
+    /************* /section-subscribe *************************************/
+
+
+    /************* section-footer *************************************/
+    .section-footer {
+        padding-top: 56px;
+        padding-bottom: 77px;
+    }
+
+    .footer-title {
+        font-size: 12px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+
+    .office-name {
+        font-size: 10px;
+    }
+
+    .office-name:before {
+        width: 13px;
+        height: 13px;
+        left: -20px;
+        top: 2px;
+    }
+
+    .office-address,
+    .office-phone {
+        font-size: 8px;
+    }
+
+
+    .footer-logo {
+        margin-top: 30px;
+    }
+
+    .footer-logo img {
+        width: 50%;
+    }
+
+    .footer-product-column {
+        margin-right: 30px;
+        margin-bottom: 12px;
+    }
+
+    .footer-product-row-title {
+        font-size: 10px;
+    }
+
+    .footer-item {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+
+    .social-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /************* /section-footer *************************************/
+
+    /************* footer **********************************/
+    .copyright {
+        font-size: 8px;
+    }
+
+    .footer-name {
+        font-size: 8px;
+        margin-left: 15px;
+    }
+
+    /************* /footer **********************************/
+    /*********** about=page ***************/
+    .menu-text {
+        font-size: 9px;
+        line-height: 1;
+    }
+
+    .menu-text:after {
+        width: 20px;
+        height: 20px;
+        background-size: 80%;
+    }
+
+    .menu-text--active:after {
+        width: 20px;
+        height: 20px;
+        background-size: 80%;
+    }
+
+    .menu-text--active:before {
+        top: 50%;
+        left: 7%;
+        transform: translate(-7%, -50%);
+    }
+
+    /*********** /about=page ***************/
+    /********************** contact.html/ section-contact ***************************/
+
+    .section-contact {
+        height: 1095px;
+    }
+
+    .contact-details-content {
+        margin-left: 22px;
+    }
+
+    .section-contact {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .tab-column {
+        width: 100%;
+    }
+
+    .contact-details-group>.section-title {
+        font-size: 14px;
+    }
+
+    .contact-details-group>.title-rectangle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contact-map {
+        width: 100%;
+    }
+
+
+
+    .contact-details-item {
+        font-size: 10px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+
+
+    .contact-details-icon {
+        left: -22px;
+        top: 0px;
+        width: 10px;
+    }
+
+    .tab-item {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1;
+        padding: 10px 0;
+    }
+
+    .input-item {
+        width: 375px;
+    }
+
+
+    /********************** /contact.html/ section-contact ***************************/
+    /************** product page *******************************************/
+
+    .support-item {
+        font-size: 13px;
+    }
+
+    .slider-product-row>.products-item {
+        margin-right: 25px;
+    }
+
+    .products-item {
+        width: 170px;
+    }
+
+    .product-item-link {
+        width: 170px;
+    }
+
+    /************** /product page *******************************************/
+
+    /********************* item-page *************************************/
+    .item-amount-text {
+        margin-right: 5px;
+    }
+
+    .item-number {
+        margin-right: 0;
+    }
+
+    .item-number-input {
+        width: 35px;
+    }
+
+    .item-storage {
+        margin-left: 0px;
+    }
+
+    .item-line {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /********************* /item-page *************************************/
+
+    /***************** documents-page ****************************************/
+
+    .documents-item {
+        padding: 20px 5px;
+    }
+
+    .documents-icon {
+        font-size: 10px;
+        margin-right: 10px;
+        padding: 5px 10px
+    }
+
+    .documents-link {
+        font-size: 15px;
+    }
+
+    .documents-size {
+        font-size: 10px;
+        line-height: 2;
+    }
+
+    /***************** /documents-page ****************************************/
+
+    /*********************** news-page ********************************/
+
+    .item {
+        width: 180px;
+        height: 319px;
+    }
+
+    /*********************** /news-page ********************************/
+
+    /*************** event-page ****************************************/
+    .article-title {
+        font-size: 25px;
+    }
+
+    .article-text {
+        font-size: 15px;
+    }
+
+    .article-quote {
+        padding: 15px 15px;
+        padding-top: 55px;
+    }
+
+    .quote-text {
+        font-size: 20px;
+    }
+
+    .quote-img {
+        top: 20px;
+        left: 10px;
+        width: 30px;
+        height: 25px;
+    }
+
+    .article-subtitle {
+        font-size: 25px;
+    }
+
+    .article-list {
+        font-size: 15px;
+    }
+
+    .article-item {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .article-item-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .article-item-title {
+        font-size: 14px;
+    }
+
+    .details-icon-text {
+        font-size: 12px;
+    }
+
+    /*************** /event-page ****************************************/
+
+}
+
+/* Для экранов с шириной до 599px */
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+
+    .home {
+        display: none;
+    }
+
+    /************* header-info *******************/
+
+    .header-info {
+        height: 40px;
+    }
+
+    .header-info--menu {
+        height: 30px;
+        line-height: 30px;
+    }
+
+
+    .category {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 30px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .category-icon {
+        display: none;
+    }
+
+
+
+
+    .header-info--row {}
+
+    .header-info--row--item {
+        font-size: 8px;
+        padding-right: 0;
+    }
+
+
+    .header-info--row--item img {
+        width: 20px;
+    }
+
+
+    .quote-number,
+    .cart-number {
+        left: 16px;
+        font-size: 8px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+    }
+
+    /************* /header-info *******************/
+
+    /*************** header-intro *****************/
+
+    .header-background {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .header-title {
+        font-size: 18px;
+    }
+
+    .circle {
+        padding: 2px;
+        margin-right: 4px;
+    }
+
+    /*************** /header-intro *****************/
+    /******************* section-qualities ******************/
+
+    .section-qualities {
+        margin-bottom: 30px;
+    }
+
+    .quality {
+        padding-right: 15px;
+        width: 138px;
+        height: 48px;
+    }
+
+
+    .quality-title {
+        font-size: 10px;
+    }
+
+    .quality-text {
+        font-size: 8px;
+    }
+
+    .quality-img {
+        width: 25px;
+        padding-right: 8px;
+    }
+
+    /******************* /section-qualities ******************/
+
+    /******* product-column ********/
+    .section-title {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .tittle-group {
+        margin-bottom: 5px;
+    }
+
+    .title-rectangle {
+        width: 15px;
+        height: 13px;
+    }
+
+    .section-products--main-page-row {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .product-item--main-page {
+        padding: 5px 10px;
+    }
+
+    .product-img--main-page {
+        width: 65px;
+        margin-bottom: 10px;
+    }
+
+    .product-title--main-page {
+        font-size: 7px;
+    }
+
+    /******* /product-column ********/
+
+    /**************** section-intro *******************************/
+    .section-intro {
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-intro-row {
+        width: 95%;
+    }
+
+    .section-intro-title {
+        font-size: 12px;
+    }
+
+    .about-column>.section-intro-title,
+    .section-intro-text {
+        padding-left: 10px;
+    }
+
+
+    .-btn {
+        font-size: 9px;
+        padding: 5px 34px;
+        margin-bottom: 20px;
+    }
+
+    /************* section-news *************************************/
+
+    .news-item {
+        width: 120px;
+        height: 184px;
+    }
+
+    .news-group {
+        font-size: 8px;
+    }
+
+    /************* /section-news *************************************/
+
+    /************* section-partners *************************************/
+    .section-title--center {
+        padding-bottom: 3px;
+        border-bottom: 2px solid #E5E5E5;
+
+    }
+
+    .section-title--center::before {
+        width: 35%;
+        height: 20px;
+
+    }
+
+    .section-title--center::after {
+        width: 35%;
+        height: 20px;
+    }
+
+    .section-partners-row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .partners-item img {
+        width: 47%;
+    }
+
+    /************* /section-partners *************************************/
+
+    /************* section-subscribe *************************************/
+
+
+    .subscribe-title {
+        font-size: 10px;
+    }
+
+    .subscribe-text {
+        font-size: 7px;
+        margin-bottom: 3px;
+    }
+
+
+    .input-email {
+        width: 130px;
+        font-size: 5px;
+        padding: 2px 5px;
+    }
+
+    .subscribe_btn {
+        font-size: 5px;
+        padding: 2px 5px;
+    }
+
+    /************* /section-subscribe *************************************/
+    /************* section-footer *************************************/
+    .section-footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-title {
+        font-size: 8px;
+        padding-bottom: 4px;
+        margin-bottom: 9px;
+    }
+
+
+    .office-name {
+        font-size: 8px;
+    }
+
+    .office-address,
+    .office-phone {
+        font-size: 6px;
+    }
+
+
+    .footer-logo {
+        margin-top: 20px;
+    }
+
+    .footer-products {
+        display: none;
+    }
+
+    .footer-item {
+        font-size: 6px;
+        margin-bottom: 3px;
+    }
+
+    .footer-social {
+        margin-top: 25px;
+    }
+
+    .social-link {
+        margin-right: 7px;
+    }
+
+    .social-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    /************* /section-footer *************************************/
+
+    /************* footer **********************************/
+    .copyright {
+        font-size: 4px;
+    }
+
+    .footer-name {
+        font-size: 4px;
+        margin-left: 5px;
+    }
+
+    /************* /footer **********************************/
+    /*********** about=page ***************/
+
+    .section-about {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .section-about>.column-67 {
+        width: 100%;
+    }
+
+    .section-about>.column-60 {
+        width: 100%;
+    }
+
+    .section-about>.column-30 {
+        width: 100%;
+    }
+
+    .section-about>.column-32 {
+        width: 100%;
+    }
+
+    .menu-text {
+        padding: 10px 15px 10px 26px;
+        font-size: 6px;
+    }
+
+
+
+    .menu-text--active:before {
+        top: 50%;
+        left: 2%;
+        transform: translate(-2%, -50%);
+    }
+
+    /*********** /about=page ***************/
+
+    /********************** contact.html/ section-contact ***************************/
+
+    .section-contact {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .contact-column,
+    .injuiry-column,
+    .tab-column {
+        width: 100%;
+    }
+
+    .tab-column {
+        margin-bottom: 20px;
+    }
+
+    .contact-details-content {
+        margin-left: 22px;
+    }
+
+    .contact-details-group>.section-title {
+        font-size: 14px;
+    }
+
+    .contact-details-group>.title-rectangle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contact-map {
+        width: 100%;
+
+    }
+
+    .contact-map-link {
+        width: 100%;
+    }
+
+
+    .contact-details-item {
+        font-size: 10px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+
+
+    .contact-details-icon {
+        left: -22px;
+        top: 0px;
+        width: 10px;
+    }
+
+
+    .input-item {
+        width: 315px;
+    }
+
+    .form-message {
+        width: 315px;
+        height: 166px;
+    }
+
+    .input-message {
+        width: 315px;
+        height: 166px;
+    }
+
+    /********************** /contact.html/ section-contact ***************************/
+
+
+    /************** product page *******************************************/
+    .product-page>.column-18 {
+        width: 100%;
+    }
+
+    .subheader-background {
+        height: 30px;
+    }
+
+    .arrow-link--prev {
+        left: 10%;
+        top: 41%;
+        transform: translate(-41%, 10%);
+    }
+
+    .arrow-link--next {
+        right: -7%;
+        top: 41%;
+        transform: translate(-41%, 7%);
+    }
+
+    /************** /product page *******************************************/
+
+    /********************* item-page *************************************/
+    .item-page {
+        flex-direction: column;
+    }
+
+    .item-page>.column-18 {
+        width: 100%;
+    }
+
+    .item-page>.column-80 {
+        width: 100%;
+    }
+
+    .item-column {
+        margin-top: 30px;
+    }
+
+    .item-logo {
+        width: 70px;
+    }
+
+    .item-row--img {
+        margin-right: 0;
+    }
+
+    .item-main-img {
+        width: 80%;
+    }
+
+    .item-add-img {
+        width: 80%;
+    }
+
+    .item-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .item-subtitle {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .item-price--new {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .item-price--new span {
+        font-size: 14px;
+
+    }
+
+    .item-price--old {
+        font-size: 12px;
+    }
+
+    .item-amount {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .item-line {
+        display: none;
+    }
+
+    .specific-cell-label {
+        width: 100px;
+        padding-right: 15px;
+    }
+
+    /********************* /item-page *************************************/
+
+    /***************** documents-page ****************************************/
+
+    .section-documents {
+        flex-direction: column-reverse;
+    }
+
+    .documents-list {
+        width: 100%;
+    }
+
+    .documents-item {
+        padding: 12px 5px;
+    }
+
+    .documents-icon {
+        margin-right: 5px;
+        padding: 3px 6px;
+    }
+
+    .documents-link {
+        font-size: 10px;
+    }
+
+    .documents-size {
+        font-size: 8px;
+        line-height: 2.7;
+    }
+
+    /***************** /documents-page ****************************************/
+
+    /*********************** news-page ********************************/
+    .news-page {
+        flex-direction: column-reverse;
+        margin-bottom: 35px;
+    }
+
+    .news-page>.column-67 {
+        width: 100%;
+    }
+
+    .item {
+        width: 120px;
+        height: 268px;
+    }
+
+    .item-text {
+        font-size: 10px;
+    }
+
+    /*********************** /news-page ********************************/
+    /*************** event-page ****************************************/
+    .article-page {
+        flex-direction: column;
+    }
+
+    .article-page>.column-67 {
+        width: 100%;
+    }
+
+    .article-page>.column-30 {
+        width: 100%;
+    }
+
+    .article-title {
+        font-size: 20px;
+    }
+
+    .quote-text {
+        font-size: 15px;
+    }
+
+    /*************** /event-page ****************************************/
+
+    /*************** inquiry-page ****************************************/
+    .inquiry-page {
+        margin-top: 30px;
+    }
+
+    .inquiry-page.column-80 {
+        width: 100%;
+    }
+
+    .list-item-name {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        display: block;
+        margin: 53px auto 50px;
+        width: 255px;
+        height: 45px;
+    }
+
+    /*************** /inquiry-page ****************************************/
+
+
+}
